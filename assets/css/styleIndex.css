@@ -14,12 +14,12 @@
     width: 50px;
     height: 50px;
     background: linear-gradient(135deg, #F7B733 0%, #F8982C 37.78%, #FC4A1A 100%);
-border-radius: 18px;
+    border-radius: 18px;
     margin-top: -15px;
     margin-right: 10px;
 }
 
-#headerLogo p {
+#headerLogo p a {
     width: 240px;
     height: 51px;
     font-family: Roboto;
@@ -30,6 +30,7 @@ border-radius: 18px;
     display: flex;
     align-items: center;
     color: #F97D26;
+    text-decoration: none;
 }
 
 .menu {
@@ -54,7 +55,12 @@ border-radius: 18px;
     color: #7C7C7C;
 }
 
-.menu li #btnLogin {
+.menu li a {
+    color: #7C7C7C;
+    text-decoration: none;
+}
+
+.menu li a #btnLogin {
     width: 135px;
 height: 37.6px;
     background: #F97D26;
