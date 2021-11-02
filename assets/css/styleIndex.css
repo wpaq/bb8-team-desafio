@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header {
+    padding: 1em 5em 0 5em;
+    box-shadow: 0 0 10px 0 grey;
+}
+
+#headerLogo {
+    display: flex;
+    align-items: center;
+}
+
+#headerLogo img {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #F7B733 0%, #F8982C 37.78%, #FC4A1A 100%);
+border-radius: 18px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+#headerLogo p {
+    width: 240px;
+    height: 51px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #F97D26;
+}
+
+.menu {
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu li {
+    width: 165px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.menu li #btnLogin {
+    width: 135px;
+height: 37.6px;
+    background: #F97D26;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+/* Main Section */
+
+.main-section {
+    padding: 5em;
+}
+
+.main-section-content {
+    width: 635px;
+    height: 541px;
+}
+
+#main-section-content h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+
+    color: #F8982C;
+}
+
+#main-section-content p {
+    width: 400px;
+    height: 237px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #7C7C7C;
+}
+
+#main-section-content button {
+    width: 208px;
+    height: 61px;
+    background: #FDE5CA;
+    border-radius: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #F8982C;
+}
+
+#main-section-ilustration img {
+    width: 486px;
+height: 612px;
+}
