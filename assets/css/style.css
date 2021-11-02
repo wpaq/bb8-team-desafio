@@ -1,0 +1,116 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: 0;
+}
+
+body {
+    background-image: url("../img/BG.png");
+    background-size: cover;
+}
+
+/* Login Form */
+.login-form {
+    width: 322px;
+    height: 593px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+/* Logo */
+.login-form #logoContent {
+    padding: 20px;
+}
+
+.login-form #logoImg {
+    width: 100px;
+    height: 100px;
+    padding: auto;
+
+    background: linear-gradient(135deg, #F7B733 0%, #F8982C 37.78%, #FC4A1A 100%);
+    border-radius: 30px;
+}
+
+/* Header */
+.login-form #header {
+    width: 322px;
+    height: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    color: #7C7C7C;
+}
+
+/* Inputs */
+.login-form input[type=text] {
+    width: 322px;
+    height: 47px;
+    margin-bottom: 10px;
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+
+.login-form input[type=email] {
+    width: 322px;
+    height: 47px;
+    margin-bottom: 10px;
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+
+.login-form input[type=password] {
+    width: 322px;
+    height: 47px;
+    margin-bottom: 10px;
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+
+/* Keep Logged in */
+.login-form #toggleKeep {
+    height: 26px;
+    font-size: 14px;
+    color: #ABABAB;
+}
+
+/* Submit Log in */
+.login-form #btnLogin {
+    margin: 10px 0;
+    width: 322px;
+    height: 47px;
+    background: #EB8323;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+/* Register */
+.login-form #registerLink {
+    font-size: 14px;
+    color: #ABABAB;
+}
+.login-form #register {
+    font-size: 14px;
+    color: #EB8323;
+    text-decoration: none;
+}
+
+/* Copyright */
+#copyright {
+    width: 481px;
+    height: 26px;
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A4A4A4;
+}
