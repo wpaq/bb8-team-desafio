@@ -8,6 +8,13 @@ lv1 - Desenvolver as páginas de Login e Cadastro da plataforma<br>
 lv2 - Desenvolver tudo acima + a página principal e o modo escuro<br>
 lv3 - Desenvolver tudo descrito acima + as páginas mobile<br>
 
+## Onde estou:
+Me encontro no lv1
+
 ## Material:
 Você deverá utilizar o design no Figma para desenvolver as páginas: https://www.figma.com/file/87P2bmC0xNGOaRWqvMFeR3/BB8-Team-UI-Copy/duplicate (feito pelo @Ruyy no discord da Ballerini)<br>
 Site do Bootstrap para documentação:  https://getbootstrap.com/
+
+## Demo:
+Log In Page: https://wpaq.github.io/bb8-team-desafio/login.html<br>
+Register Page: https://wpaq.github.io/bb8-team-desafio/register.html
