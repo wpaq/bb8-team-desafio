@@ -25,7 +25,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 41px;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     display: flex;
     align-items: center;
@@ -62,20 +62,20 @@
 
 .menu li a #btnLogin {
     width: 135px;
-height: 37.6px;
+    height: 37.6px;
     background: #F97D26;
     border-radius: 5px;
     color: #FFFFFF;
 }
 
 /* Main Section */
-
 .main-section {
-    padding: 5em;
+    width: 100%;
+    padding: 4em;
 }
 
 .main-section-content {
-    width: 635px;
+    width: 100%;
     height: 541px;
 }
 
@@ -83,41 +83,116 @@ height: 37.6px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 100px;
-    line-height: 117px;
+    font-size: 68px;
+    line-height: 88px;
     display: flex;
     align-items: center;
-
     color: #F8982C;
 }
 
 #main-section-content p {
     width: 400px;
-    height: 237px;
+    height: 157px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
-
     color: #7C7C7C;
 }
 
 #main-section-content button {
     width: 208px;
-    height: 61px;
+    height: 50px;
     background: #FDE5CA;
     border-radius: 10px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 35px;
-    line-height: 41px;
+    font-size: 18px;
+    line-height: 35px;
     color: #F8982C;
 }
 
 #main-section-ilustration img {
-    width: 486px;
-height: 612px;
+    width: 100%;
+    height: 412px;
+}
+
+#main-section-vector {
+    padding-top: 3em;
+}
+
+/* Companies section */
+.companies-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 413px;
+    background: rgba(232, 232, 232, 0.2);
+}
+
+.companies-text h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 150px;
+}
+
+.companies-text p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    align-self: center;
+    padding: 0 180px;
+}
+
+/* Products Sectin */
+.products-section {
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 614px;
+}
+
+.products-text {
+    width: 100%;
+}
+
+.products-card {
+    width: 100%;
+}
+
+.p-card {
+    margin: auto;
+    padding: 15px;
+    width: 294px;
+    height: 390px;
+    border: 1px solid;
+}
+
+.p-card h3 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.p-card p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
 }
