@@ -167,25 +167,26 @@
 
 .products-text {
     width: 100%;
-}
-
-.products-card {
-    width: 100%;
+    color: #F8982C;
 }
 
 .p-card {
     margin: auto;
-    padding: 15px;
-    width: 294px;
-    height: 390px;
-    border: 1px solid;
+    padding: 1.5em;
+    width: 324px;
+    height: 320px;
+    text-align: left;
+    border-radius: 10px;
 }
 
-.p-card h3 {
+.p-card h4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
     font-family: Nunito;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 55px;
 }
 
@@ -195,4 +196,58 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+}
+
+#writing-card {
+    border: 1px solid #BE49E8;
+}
+#writing-card h4{
+    color: #BE49E8;
+}
+
+#graphic-card {
+    border: 1px solid #5398E9;
+}
+#graphic-card h4{
+    color: #5398E9;
+}
+
+#software-card {
+    border: 1px solid #2BBC5D;
+}
+#software-card h4{
+    color: #2BBC5D;
+}
+
+.testemunials-section {
+    width: 100%;
+    padding: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 614px;
+}
+
+.testemunials-section h2 {
+    text-align: left;
+    color: #F97D26;
+}
+
+.groups {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-card {
+    border: 1px solid#F8982C;
+}
+
+#aspas {    
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    color: #F8982C;
 }
