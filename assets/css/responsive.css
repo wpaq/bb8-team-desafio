@@ -1,9 +1,25 @@
 @media (max-width: 991.98px) {
     #header .navbar-collapse {
-        width: 100%;
-        display: flex;
-        align-items: center;
+        width: 100%;            
+    }
+
+    #header .navbar-collapse .navbar-nav {
+        width: 135px;
         text-align: center;
-        justify-content: center !important; 
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #main-section #main-section-content h1 {
+        text-align: center;
+    }
+
+    #main-section #main-section-content p {
+        text-align: center;
+    }
+
+    #main-section #main-section-ilustration{
+        text-align: center;
     }
 }

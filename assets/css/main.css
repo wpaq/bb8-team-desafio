@@ -1,7 +1,9 @@
+/* Header */
 #header {
     width: 100%;
     background-color: transparent;
     transition: background ease-out 0.2s;
+    box-shadow: 0 0 10px 0 grey;
 }
 
 #header .navbar-brand {
@@ -16,6 +18,7 @@
 }
 
 #header .navbar-brand .img-fluid {
+    margin-right: 15px;
     border-radius: 18px;
 }
 
@@ -53,4 +56,47 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+}
+/* // Header // */
+
+/* Main Section */
+#main-section {
+    width: auto;
+    margin: 5em;
+}
+
+#main-section #main-section-content h1 {
+    padding-bottom: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 90px;
+    color: #F8982C;
+}
+
+#main-section #main-section-content p {
+    padding-right: 1em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #7C7C7C;
+}
+
+#main-section #main-section-ilustration{
+    text-align: center;
+}
+
+#main-section #main-section-content .btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #F8982C;
 }
