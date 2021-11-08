@@ -57,7 +57,7 @@
     line-height: 21px;
     color: #FFFFFF;
 }
-/* // Header // */
+/* // Header */
 
 /* Main Section */
 #main-section {
@@ -81,22 +81,124 @@
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 40px;
 
     color: #7C7C7C;
 }
 
-#main-section #main-section-ilustration{
+#main-section #main-section-ilustration {
     text-align: center;
 }
 
+#main-section #main-section-vector {
+    padding: 5em;
+}
+
 #main-section #main-section-content .btn {
+    margin-top: 32px;
+    width: 208px;
+    height: 61px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 41px;
     text-align: center;
+    background: #FDE5CA;
+    border-radius: 10px;
 
     color: #F8982C;
 }
+/* // Main Section */
+
+/* Companies Section */
+#companies-section {
+    width: 100%;
+    
+    padding: 3em 0;
+    background: rgba(232, 232, 232, 0.2);
+}
+
+#companies-section #companies-content h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: #515151;
+}
+
+#companies-section #companies-content p {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 1em 10em;
+    color: #515151;
+}
+/* // Companies Section */
+
+/* Products Section */
+#product-section #product-title h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 94px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 30px;
+
+    color: #F8982C;
+}
+
+#product-section .product-card {
+    border-radius: 10px;
+    width: 350px;
+    height: 290px;
+    margin: 1em auto;
+    padding: 1.5em;
+}
+
+#product-section .product-card h4 {
+    text-align: left;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+#product-section .product-card img {
+    float: right;
+}
+
+#product-section .product-card p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#writing-card {
+    border: 1px solid #BE49E8;
+}
+#writing-card h4{
+    color: #BE49E8;
+}
+
+#graphic-card {
+    border: 1px solid #5398E9;
+}
+#graphic-card h4{
+    color: #5398E9;
+}
+
+#software-card {
+    border: 1px solid #2BBC5D;
+}
+#software-card h4{
+    color: #2BBC5D;
+}
+/* // Products Section */
