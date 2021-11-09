@@ -31,3 +31,20 @@
         margin-bottom: 7em;
     }
 }
+
+
+@media (max-width: 576px) {
+    #main-section {
+        margin: 5em auto;
+    }
+
+    #main-section #main-section-content h1 {
+        font-size: 60px;
+        line-height: 50px;        
+    }
+
+    #main-section #main-section-content p {        
+        font-size: 22px;
+        line-height: 22px;    
+    }
+}
