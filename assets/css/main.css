@@ -208,3 +208,70 @@
     color: #2BBC5D;
 }
 /* // Products Section */
+
+/* Testemunials Section */
+#testemunials-section {
+    margin-top: 3em;
+}
+
+#testemunials-section h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #F8982C;
+}
+
+#testemunials-section .group-card {
+    background: #FFFCF8;
+    border: 1px solid #FFA540;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 355.3px;
+    align-items: center;
+    margin: 5em auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#testemunials-section .group-card .text-end {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 1em;
+    color: #3B3B3B;
+}
+
+#testemunials-section .group-card .aspas {
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 30px;
+    margin-left: -20px;
+    color: #F8982C;
+}
+/* // Testemunials Section */
+
+/* Footer */
+#footer {
+    background: #FFA540;
+    color: #FFFFFF;
+}
+
+#footer #footer-title a {
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#footer #footer-contact p {
+    font-size: 18px;
+    line-height: 10px;
+}
