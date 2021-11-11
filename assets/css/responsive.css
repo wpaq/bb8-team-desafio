@@ -34,17 +34,81 @@
 
 
 @media (max-width: 576px) {
+    /* Header */
+    #header .navbar-brand {
+        font-size: 20px;
+        margin: 0 1em;
+    }
+
+    #header .navbar-brand .img-fluid {
+        width: 33px;
+        height: 33px;
+        border-radius: 14px;
+    }
+    /* // Header */
+
+    /* Main Section */
     #main-section {
-        margin: 5em auto;
+        margin: 5em 1em;
     }
 
     #main-section #main-section-content h1 {
         font-size: 60px;
-        line-height: 50px;        
+        line-height: 70px;    
+        text-align: left;    
     }
 
     #main-section #main-section-content p {        
         font-size: 22px;
-        line-height: 22px;    
+        line-height: 32px;    
+        text-align: left; 
+    }
+
+    #main-section #main-section-content .btn {
+        height: 50px;
+        width: 170px;
+        font-size: 25px;
+        align-items: center;
+    }
+
+    #main-section #main-section-ilustration {
+        display: none;
+    }
+
+    #main-section #main-section-vector {
+        display: none;
+    }
+    /* // Main Section */
+
+    #companies-section #companies-content h1 {
+        font-size: 33px;
+    }
+
+    #companies-section #companies-content p {
+        margin: 1em 1em;
+    }
+
+    #product-section #product-title h1   {
+        font-size: 50px;
+        text-align: right;
+        margin: 0 0.5em;
+    }
+    
+    #testemunials-section h2 {
+        font-size: 44px;
+        margin: 1em 0.5em;
+    }
+
+    #testemunials-section .group-card {
+        margin: 2em auto;
+    
+    }
+
+    #footer #footer-title {
+        text-align: center;
+    }
+
+    #footer #footer-contact {
+        text-align: center;
     }
 }
