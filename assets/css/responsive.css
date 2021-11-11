@@ -22,9 +22,11 @@
     }
     /* // Companies Section */
 
+    /* Products Section */
     #product-section .product-card {
         margin: 1em auto;
     }
+    /* // Products Section */
 }
 
 @media (max-width: 768px) {
@@ -98,6 +100,7 @@
         line-height: 30px;
     }
 
+    /* Products Section */
     #product-section {
         padding: 0 3em;
     }
@@ -107,6 +110,7 @@
         text-align: right;
         line-height: 50px;
     }
+    /* // Products Section */
     
     #testemunials-section {
         padding: 0 3em;
