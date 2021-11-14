@@ -1,0 +1,25 @@
+{
+  "name": "bb8-team",
+  "version": "1.0.0",
+  "description": "Desafio do Discord da Ballerini",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpaq/bb8-team-desafio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpaq/bb8-team-desafio/issues"
+  },
+  "homepage": "https://github.com/wpaq/bb8-team-desafio#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
