@@ -15,7 +15,7 @@ Me encontro no lv1
 Você deverá utilizar o design no Figma para desenvolver as páginas: https://www.figma.com/file/87P2bmC0xNGOaRWqvMFeR3/BB8-Team-UI-Copy/duplicate (feito pelo @Ruyy no discord da Ballerini)<br>
 Site do Bootstrap para documentação:  https://getbootstrap.com/
 
-## Demo:
+## O que eu fiz:
 Home Page: https://wpaq.github.io/bb8-team-desafio/index.html<br>
 Log In Page: https://wpaq.github.io/bb8-team-desafio/login.html<br>
 Register Page: https://wpaq.github.io/bb8-team-desafio/register.html
